@@ -1,0 +1,35 @@
+<div class="wrapper animated fadeInRight">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="portlet light bordered">
+                <div class="portlet-title">
+                    <div class="caption font-blue-hoki">
+                        <i class="fa fa-group font-blue-hoki"></i>
+                        <span class="caption-subject bold uppercase">报表</span>
+                    </div>
+                </div>
+               <div class="portlet-body">
+                   <div class="row">
+                       <div class="col-md-2">
+                           <tree-template tree-name="'区域列表'" tree-data="treeData"
+                                          tree-search-level='2'
+                                          tree-selected-data="selectedData"
+                                          tree-search-placeholder="'小区名称'"
+                                          select-node="selectNode(selected)"></tree-template>
+                       </div>
+                       <div class="col-md-10">
+                           <form class="form-inline pull-right">
+                               <div class="form-group">
+                                   <label>季度</label>
+                               </div>
+                               <div class="form-group">
+                                   <!--<select class="form-control input-sm" ng-options="" ng-model=""></select>-->
+                               </div>
+                           </form>
+                       </div>
+                   </div>
+               </div>
+            </div>
+        </div>
+    </div>
+</div>

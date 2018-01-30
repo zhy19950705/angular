@@ -1,0 +1,14 @@
+<div class="panel panel-default">
+    <div class="panel-heading-custom">
+        <span ng-bind="treeName"></span>
+    </div>
+    <div class="panel-neck-custom">
+        <input type="text" class="form-control tree-input-custom" ng-model="seachValue"
+               ng-keyup="keyupevt(seachValue)" placeholder="{{treeSearchPlaceholder}}"/>
+    </div>
+    <div class="panel-body tree-body tree_fontSize">
+        <div class="jstree jstree-default" js-tree="treeConfig" ng-model="treeData"
+             tree-events="select_node:selectNodeCB;ready:readyBC;"
+             tree="treeInstance"></div>
+    </div>
+</div>

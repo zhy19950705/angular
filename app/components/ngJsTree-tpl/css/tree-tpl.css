@@ -1,0 +1,32 @@
+.panel-heading-custom {
+    padding: 10px 15px;
+}
+
+.panel-neck-custom {
+    padding: 5px 15px;
+    background-color: #f1f4f7;
+}
+
+.tree-input-custom {
+    border: 0 !important;
+    line-height: 27px !important;
+    height: 27px !important;
+    padding: 3px 5px !important;
+}
+
+/*tree*/
+.tree-folder {
+    color: #edc200 !important;
+}
+
+.tree-building {
+    color: #6a81a1 !important;
+}
+
+.tree-home {
+    color: #6a81a1 !important;
+}
+
+.tree_fontSize {
+    font-size: 12px !important;
+}
